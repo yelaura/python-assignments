@@ -1,0 +1,8 @@
+Idea:
+We will be using a data set called “Boston Marathon Results 2017” obtained from Kaggle, which contains information on each runner, including name, age, gender, address, country, bib number, finish position, pace, finishing times at every 5 km, division finish position, overall finish position, gender finish positions. We will be visualizing this data in an animated histogram that updates at a certain increment of time to show how many people reached each km marker proportional to their real time. The user will be able to specify parameters to display on the histogram and/or input their own data to visualize their progress against actual participants. People who are training for marathons would be able to compare their progress with that of the actual participants. Those who ran the marathon would be able to determine how they did in comparison to the other participants. 
+
+Task List:
+1. (Laura) Import the data, store the relevant data and convert data to desired UOM.
+2. (Laura) User can also specify parameters (age, country, gender) to visualize a subset of runners (optional - user can choose no parameters and visualize all data).
+3. (Aarti) User can input how long it takes for them to reach each km marker and their data will be visualized with the runners specified in step 2.
+4. (Aarti & Laura) Visualize running times in an animated histogram that updates after a fixed increment of time to show how many people in the marathon reached each km marker.
