@@ -1,0 +1,19 @@
+# Download opencv package according to your operating system
+website: http://opencv.org/releases.html
+I downloaded 3.2.0 win pack on my windows system.
+
+# find if python is 32 bits or 64 bits
+In terminal open python, it will display the following sentence if it is 64 bits:
+[MSC v.1500 64 bit (AMD64)] on win32
+
+# copy cv2.pyd to anaconda depending on bit version of python
+source file location (in the opencv folder you extracted from the downloaded file): 
+	if it is 64bit python:
+		C:\Users\...\opencv\build\python\2.7\x64\
+	if it is 32bit python:
+		C:\Users\...\opencv\build\python\2.7\x86
+target location: 
+	if jupyter notebook do not have multiple environment in jupyter notebook
+		C:\Users\...\Anaconda2\Lib\site-packages\
+	if have multiple environment:
+		C:\Users\...\Anaconda2\envs\py27\Lib
